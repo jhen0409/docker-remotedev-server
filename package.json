@@ -1,0 +1,24 @@
+{
+  "name": "docker-remotedev-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dockerized remotedev-server",
+  "scripts": {
+    "start": "pm2 start main.js --no-daemon"
+  },
+  "repository": {
+    "url": "git@github.com:jhen0409/docker-remotedev-server.git",
+    "type": "git"
+  },
+  "author": "Jhen <developer@jhen.me>",
+  "license": "MIT",
+  "dependencies": {
+    "js-data-firebase": "^2.1.1",
+    "js-data-mongodb": "^0.7.0",
+    "js-data-rethinkdb": "^2.2.0",
+    "js-data-sql": "^0.11.17",
+    "pm2": "^2.0.18",
+    "remotedev-server": "^0.2.0",
+    "rethinkdbdash": "^2.3.23"
+  }
+}
