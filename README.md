@@ -20,7 +20,7 @@ The .env file is your configuration ([.env.default](.env.default))
 #### ENV
 
 * `PORT` -  A `remotedev-server` port
-* `ADAPTER` -  A DB adapter for [js-data](https://github.com/js-data/js-data), see [https://github.com/zalmoxisus/remotedev-server#save-reports-and-logs](remotedev-server#save-reports-and-logs) for more information.
+* `ADAPTER` -  A DB adapter for [js-data](https://github.com/js-data/js-data), see [remotedev-server#save-reports-and-logs](https://github.com/zalmoxisus/remotedev-server#save-reports-and-logs) for more information.
   * `firebase`
     * `DB_BASE_PATH` (`https://my-app.firebase.io`)
   * `http`
