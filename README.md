@@ -8,7 +8,7 @@ $ docker run -d --name db mongo
 # Run Remotedev server container
 $ docker run -d -p 8000:8000 \
   --name remotedev \
-  --link db:db
+  --link db:db \
   --env-file=.env \
   jhen0409/remotedev-server
 ```
@@ -46,4 +46,4 @@ $ docker build --rm -t jhen0409/remotedev-server .
 
 ## LICENSE
 
-[MIT][LICENSE.md]
+[MIT](LICENSE.md)
